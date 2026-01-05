@@ -22,3 +22,5 @@ Projeto de Data Science para prever taxas de câmbio usando RNNs, comparando LST
 - Dados via API com fallback local.
 - Comparação entre RNNs
 - App com visual melhorado.
+
+## Meu Portfolio: https://luisturra.github.io/MyPortfolio/#home
