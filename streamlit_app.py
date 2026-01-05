@@ -63,7 +63,7 @@ with st.sidebar:
     st.write("Desenvolvido por :Luis Henrique Turra Ramos")  
     st.write("Previsão de taxas de câmbio usando RNNs (LSTM/GRU/Conv1D LSTM/SimpleRNN/Bidirectional LSTM). Compara modelos para melhor desempenho.")
     st.write("Dados: Alpha Vantage API com cache local.")
-    st.markdown("[GitHub Repo](https://github.com/SEU_USUARIO/previsao-taxas-cambio-lstm)")
+    st.markdown("[GitHub Repo](https://github.com/LuisTurra/Previsao-de-Taxas-de-Cambio-com-RNN-LSTM)")
     st.markdown("[Alpha Vantage](https://www.alphavantage.co)")
 
 st.title("🪙 Previsão de Taxas de Câmbio com RNN")

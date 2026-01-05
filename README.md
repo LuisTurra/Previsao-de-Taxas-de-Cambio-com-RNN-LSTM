@@ -1,6 +1,6 @@
 # Previsão de Taxas de Câmbio com RNN (LSTM/GRU)
 
-Projeto de Data Science para prever taxas de câmbio usando RNNs, comparando LSTM e GRU para melhor desempenho.
+Projeto de Data Science para prever taxas de câmbio usando RNNs, comparando LSTM, GRU, Conv1D LSTM, SimpleRNN e Bidirectional LSTM para melhor desempenho.
 
 ## Configuração
 1. Crie um `.env` com `ALPHA_VANTAGE_API_KEY="sua_key"` (não commite!).
@@ -18,5 +18,5 @@ Projeto de Data Science para prever taxas de câmbio usando RNNs, comparando LST
 
 ## Etapas
 - Dados via API com fallback local.
-- Compara LSTM vs GRU por MSE.
+- Comparação entre RNNs
 - App com visual melhorado.

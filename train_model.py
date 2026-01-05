@@ -113,6 +113,8 @@ perf_df = pd.DataFrame(list(performances.items()), columns=['Modelo', 'MSE']).so
 fig = px.bar(perf_df, x='Modelo', y='MSE', title='Comparação de MSE dos Modelos (Menor é Melhor)',
              labels={'MSE': 'Mean Squared Error'}, color='MSE', color_continuous_scale='bluered')
 fig.update_layout(xaxis_tickangle=-45, hovermode='x unified', template='plotly_dark')
-fig.write_json('comparacao_modelos.json')  
+fig_json = pio.to_json(fig)
+with open('comparacao_modelos.json', 'w', encoding='utf-8') as f:
+    f.write(fig_json)
 fig.write_image('comparacao_modelos.png') 
 print("Gráfico salvo como 'comparacao_modelos.json' e 'comparacao_modelos.png'.")
