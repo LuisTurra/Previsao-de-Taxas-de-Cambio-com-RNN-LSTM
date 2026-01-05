@@ -13,6 +13,8 @@ Projeto de Data Science para prever taxas de câmbio usando RNNs, comparando LST
 - Adicione secret: ALPHA_VANTAGE_API_KEY = "sua_key".
 - App em `app.py`.
 
+## LIVE DEMO: https://luisturra-previsao-de-taxas-de-cambio-com--streamlit-app-93pqrb.streamlit.app/
+
 ## Segurança
 - API Key é carregada via env var, não hardcode!
 
